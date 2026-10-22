@@ -27,6 +27,41 @@
 
     <main id="contenido">
 
+        <h2>La entrada es gratuita y los cupos son limitados. Completa el formulario para reservar el tuyo.</h2>
+
+        <form action="gracias.html" method="get">
+            <fieldset>
+                <legend>Tus datos</legend>
+                <label for="nombre">Nombre completo</label>
+                <input type="text" id="nombre" name="nombre" required> <br><br>
+
+                <label for="correo">Correo electronico</label>
+                <input type="email" id="correo" name="correo" required> <br><br>
+
+                <label for="celular">Celular</label>
+                <input type="tel" id="celular" name="celular" required> <br><br>
+
+                <label for="ciudad">Ciudad</label>
+                <select name="ciudad" id="ciudad" required>
+                    <option value="Medellin">Medellin</option>
+                    <option value="Bello">Bello</option>
+                    <option value="Itagui">Itagui</option>
+                    <option value="Envigado">Envigado</option>
+                    <option value="Sabaneta">Sabaneta</option>
+                    <option value="La-estrella">La estrella</option>
+                    <option value="Caldas">Caldas</option>
+                    <option value="Copacabana">Copacabana</option>
+                    <option value="Girardota">Girardota</option>
+                    <option value="Barbosa">Barbosa</option>
+                    <option value="Otra">Otra</option>
+                </select>
+                    
+                <br><br>
+            </fieldset>
+
+
+        </form>
+
     </main>
 
     <footer>
